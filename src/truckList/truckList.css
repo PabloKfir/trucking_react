@@ -1,0 +1,14 @@
+
+.truckList{
+    background-color: #DFD3C3;
+    align-items: center;
+    width: 250px;
+    height: 450px;
+    box-shadow: 70px;  
+    margin: auto;
+}
+
+.truckListImg{
+    width: 200px;
+    height: 250px;
+}

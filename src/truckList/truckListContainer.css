@@ -1,0 +1,10 @@
+.truckList__Container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 100px;
+    width: 90%;
+    margin: auto;
+    align-items:center;
+    list-style-type: none
+}

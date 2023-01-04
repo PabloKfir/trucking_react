@@ -1,0 +1,35 @@
+.truckDetail__header{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.truckDetail__container{
+    margin: auto;
+}
+
+.truckTable{
+    column-width: auto;
+    column-count: auto;
+    width: 100%;
+    font-size: 30px;
+}
+
+.truckDetail__img{
+    width:600px;
+    height: 400px;
+    margin:auto;
+}
+
+.truckDetail__rowHeader{
+    width: 500px;  
+    background-color: #DFD3C3;
+    font-weight: 800;
+}
+
+tr{
+    border: solid;
+}
+
+.truckDetail__rowBody{
+    width: 700px;
+    background-color: #D0B8A8;
+}

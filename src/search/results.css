@@ -1,0 +1,23 @@
+.results__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 100px;
+    width: 90%;
+    margin: auto;
+    align-items:center;
+}
+
+.results__list{
+    background-color: #DFD3C3;
+    align-items: center;
+    width: 250px;
+    height: 450px;
+    box-shadow: 30px;  
+    margin: auto;
+}
+
+.results__img{
+    width: 200px;
+    height: 250px;
+}

@@ -1,0 +1,15 @@
+.dynamicSearch__container{
+    background-color: white;
+    border: solid;
+    width: 50%;
+    top:51%;
+    left: 25%;
+    margin: auto;
+    justify-content: flex-start;
+    position: absolute;
+}
+.dynamicSearch__div{
+    position: relative;
+    text-align: start;
+    
+}
