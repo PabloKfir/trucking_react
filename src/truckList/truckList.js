@@ -10,16 +10,13 @@ const TruckList = ( props ) =>{
     const addTruckHandler = () =>{
         setIsChecked(!isChecked)
         if(isChecked){
-        const truckToAdd = {
+        const truckToAdd ={
         id: props.id,
         brand: props.brand
         }
      addTruck(truckToAdd) 
-    }else{
-        const truckRemoved={
-            id: props.id
-        }
-    removeTruck(truckRemoved)
+    }else{     
+    removeTruck(props.id)
 } 
 
 }
