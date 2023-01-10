@@ -12,21 +12,27 @@ const TruckList = ( props ) =>{
         if(isChecked){
         const truckToAdd ={
         id: props.id,
-        brand: props.brand
+        brand: props.brand,
+        model: props.model,
+        img: props.img,
+        market: props.market,
+        cab: props.cab,
+        engine: props.engine,
+        transmissions: props.transmissions,
+        exhaust: props.exhaust,
+        axle: props.axle
         }
      addTruck(truckToAdd) 
     }else{     
     removeTruck(props.id)
 } 
-
 }
 
-   
     return(
     <li>
-        <div className="truckList" key={props._id} > 
+        <div className="truckList" key={props.id} > 
         <input type='checkbox' onChange={addTruckHandler}></input>
-        <Link  to={`/detail/${props._id}`} >
+        <Link  to={`/detail/${props.id}`} >
         
         <h1>{props.brand}</h1>
         <h2>{props.model}</h2>

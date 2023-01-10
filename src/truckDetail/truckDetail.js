@@ -18,35 +18,28 @@ const TruckDetail = (props) =>{
                 </tr>
                 <tr>
                     <td className='truckDetail__rowHeader'>Target Market</td>
-                    <td className='truckDetail__rowBody'>{props.market.map(market =>
-                        <div>{market}</div>)}</td>
+                    <td className='truckDetail__rowBody'>{props.market.map((market, index)=>{ return(<div key={index}>{market}</div>)})}</td>
                 </tr>
                 <tr>
                     <td className='truckDetail__rowHeader'>Cabin</td>
-                    <td className='truckDetail__rowBody'>{props.cab.map(cab =>
-                        <div>{cab}</div>)}</td>
+                    <td className='truckDetail__rowBody'>{props.cab.map((cab, index)=>{ return(<div key={index}>{cab}</div>)})}</td>
                 </tr>
                 <tr >
                     <td className='truckDetail__rowHeader'>Engine</td>
-                    <td className='truckDetail__rowBody'> {props.engine.map(engine =>
-                        <div>{engine}</div>
-                    )}</td>
+                    <td className='truckDetail__rowBody'> {props.engine.map((engine, index)=>{ return(<div key={index}>{engine}</div>)})}</td>
                     
                 </tr>
                 <tr>
                     <td className='truckDetail__rowHeader'>Transmission</td>
-                    <td className='truckDetail__rowBody'>{props.transmissions.map(transmissions=>
-                        <div>{transmissions}</div>)}</td>
+                    <td className='truckDetail__rowBody'>{props.transmissions.map((transmissions, index)=>{ return(<div key={index}>{transmissions}</div>)})}</td>
                 </tr>
                 <tr>
                     <td className='truckDetail__rowHeader'>Exhaust</td>
-                    <td className='truckDetail__rowBody'>{props.exhaust.map(exhaust =>
-                        <div>{exhaust}</div>)}</td>
+                    <td className='truckDetail__rowBody'>{props.exhaust.map((exhaust, index)=>{ return(<div key={index}>{exhaust}</div>)})}</td>
                 </tr>
                 <tr>
                     <td className='truckDetail__rowHeader'>Axle</td>
-                    <td className='truckDetail__rowBody'>{props.axle.map(axle=>
-                        <div>{axle}</div>)}</td>
+                    <td className='truckDetail__rowBody'>{props.axle.map((axle, index)=>{ return(<div key={index}>{axle}</div>)})}</td>
                 </tr>
             </tbody>
         </table>      

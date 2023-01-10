@@ -1,0 +1,11 @@
+.compare__container{
+    font-size: 30px;
+    list-style-type: none;
+    
+}
+
+.compare__body{
+    width: 700px;
+    background-color: #D0B8A8;
+    margin-bottom: 2px;
+}

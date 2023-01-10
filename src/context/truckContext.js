@@ -19,7 +19,7 @@ export const TruckContextProvider = (props) => {
     }
      
     return(
-       <TruckContext.Provider value={{ addTruck, removeTruck }}>
+       <TruckContext.Provider value={{ truckCompare, addTruck, removeTruck }}>
         {props.children}
        </TruckContext.Provider>
     )
