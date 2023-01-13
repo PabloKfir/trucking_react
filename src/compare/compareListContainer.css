@@ -1,8 +1,6 @@
 .test{
     display: flex;
     flex-direction: row;
-
-    width: 20%;
     margin: auto;
     align-items:center;
 }
