@@ -6,7 +6,6 @@ export const TruckContextProvider = (props) => {
 
     const [truckCompare, setTruckCompare]= useState([]);
 
-    console.log(truckCompare);
 
     const addTruck = (truckToAdd) => { 
         setTruckCompare([...truckCompare, truckToAdd])
@@ -15,7 +14,6 @@ export const TruckContextProvider = (props) => {
        
      const truckToRemove = truckCompare.filter(trucks => trucks.id !== id)
      setTruckCompare(truckToRemove)
-     console.log(truckToRemove) 
     }
      
     return(
